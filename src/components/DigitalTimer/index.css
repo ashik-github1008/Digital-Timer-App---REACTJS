@@ -1,0 +1,182 @@
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  background: linear-gradient(to right, #ffffff, #defafe, #cffcf1);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.heading {
+  color: #0f172a;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* .main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.whole-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  width: 600px;
+  height: 600px;
+  /* border-radius: 50%; */
+  margin-left: 180px;
+  margin-right: 0px;
+}
+
+.time-running-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: #ffffff;
+}
+
+.time-display {
+  color: #00d9f5;
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.status-display {
+  color: #0f172a;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.timer-buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 340px;
+  margin-left: 0px;
+}
+
+.start-pause-reset-btn-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.start-pause-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.reset-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  width: 40px;
+  /* align-self: flex-start; */
+  margin-right: 12px;
+}
+
+.button-text {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: 500;
+  /* align-self: flex-end; */
+}
+
+.button-text:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.timer-limit-text {
+  text-align: center;
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 20px;
+  /* margin-top: 28px; */
+}
+
+.plus-minus-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.time-limit {
+  background: linear-gradient(to right, #cffcf1, #00d9f5);
+  /* padding: 20px; */
+  font-size: 30px;
+  border-radius: 16px;
+  width: 98px;
+  text-align: center;
+  padding: 8px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.adjust-button {
+  color: #0f172a;
+  font-weight: 500;
+  font-size: 38px;
+  border: none;
+  background-color: transparent;
+}
+
+.adjust-button:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.startReset-btn {
+  border: none;
+  background-color: transparent;
+  align-self: flex-start;
+}
+
+.startReset-btn:focus {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* .button-text {
+  background-color: transparent;
+  border: none;
+} */
+
+.start-reset-txt-btn {
+  border: none;
+  background-color: transparent;
+  align-self: flex-start;
+}
+
+start-reset-txt-btn:focus {
+  outline: none;
+  cursor: pointer;
+}
